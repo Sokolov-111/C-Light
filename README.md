@@ -1,8 +1,19 @@
 # C-Light
-# Read button click connected at pin and turn on/off the light.
+# Лампочка, управляемая кнопкой.
+# Суть проекта: добавить кнопку в цепь со светодиодом и управлять его # свечением.
 
-# Sketch for listen button (connected at pin A4) click.
-# At click turn on/off the light (connected at pin 13).
+# Компоненты для сборки проекта:
+# -	Arduino Uno
+# -	Макетная плата
+# -	Перемычки
+# -	Кнопка
+# -	Светодиод
+# -	Резистор с сопротивлением 10кОм и 220Ом
 
-# Using the Serial library component, the program displays the log in the console.
+# Принцип работы:
+# При нажатии на кнопку – цепь замыкается. Когда кнопка отпущена – цепь # разомкнута.
+# У кнопки чаще всего есть 4 контакта – по 2 напротив друг друга. К  примеру – A и B на одной стороне, C и D – напротив.
+# При нажатии на кнопку – цепь замыкается.
 
+# Схема создана с помощью Tinkercad
+# https://www.tinkercad.com/things/0YmQHImACs5-super-maimu
